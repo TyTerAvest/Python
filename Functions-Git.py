@@ -19,7 +19,7 @@ x = 406
 
 def print_something():
     x = 3
-    print('\n', x)
+    print ('\n', x)
 
-print(x)
+print('\n', x)
 print_something()
