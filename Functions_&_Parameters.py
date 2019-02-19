@@ -2,7 +2,7 @@
 # Ty Ter Avest
 # 2.18.19
 
-'''
+
 def print_numbers(x):
     print(x)
 
@@ -18,29 +18,28 @@ def name_and_age(name, age):
 
 name_and_age('Mike', 33)
 name_and_age('Zane', 18)
-'''
+
 
 # 4.14.5: Default Parameter Values
 # Ty Ter Avest
 # 2.19.19
-'''
+
 def print_two_numbers(x, y = 20):
     print('First number: ', x)
     print('Second Number: ' + str(y))
 
 print_two_numbers(34, 45)
 print_two_numbers(78)
-'''
+
 
 # 4.14.6: Print Sum
 # Ty Ter Avest
 # 2.19.19
-'''
+
 def print_sum(x, y):
     print(x + y)
 
 print_sum(79,179)
-'''
 
 # 4.14.7: Print Multiple Times
 # Ty Ter Avest
@@ -51,3 +50,12 @@ def print_multiple_times(string, times):
         print(string)
 
 print_multiple_times('Hey there Computer Scientist',7)
+
+
+
+
+
+
+
+
+print('hi')
