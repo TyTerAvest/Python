@@ -1,6 +1,6 @@
 # Ty Ter Avest
-# 2.5.19
-'''
+# 2.5.19 Python - Exceptions - Git
+
 name = input("What is your name:")
 
 def greeting():
@@ -8,7 +8,7 @@ def greeting():
     print("Nice to meet you")
 
 greeting()
-'''
+
 
 
 # 4.13.4: Functions and Variables
@@ -23,3 +23,30 @@ def print_something():
 
 print('\n', x)
 print_something()
+
+
+# 4.13.5: Functions and Variables, Part 2
+# Ty Ter Avest
+
+my_variable = 3.6745
+
+def something():
+    print (my_variable + 10)
+
+
+something()
+
+
+# 4.13.6: Functions and Variables, Part 3
+# Ty Ter Avest
+
+z = 12.345
+
+def print_something():
+    z = 'hi '
+    print (z * 7)
+
+print_something()
+
+
+print (round(z * 3, 2))
