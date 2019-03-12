@@ -50,3 +50,15 @@ print_something()
 
 
 print (round(z * 3, 2))
+
+
+# 3.13.6: Functions & Variables, Part 3
+# Ty Ter Avest
+# 2.18.19
+
+
+def print_numbers(x):
+    print(x)
+
+print_number(13)
+print_number(23)
