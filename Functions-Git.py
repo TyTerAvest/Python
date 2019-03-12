@@ -50,3 +50,16 @@ print_something()
 
 
 print (round(z * 3, 2))
+
+
+# 4.16.3: Enter a Number using Try & Except
+# Ty Ter AVest
+# 2.20.19
+
+
+try:
+    my_num = int(input('Enter an interger: '))
+    print('Your number:', my_num)
+
+except ValueError:
+    print('\n''That was not an integer, YOU FOOL!')
