@@ -52,6 +52,7 @@ print_something()
 print (round(z * 3, 2))
 
 
+
 # 3.13.6: Functions & Variables, Part 3
 # Ty Ter Avest
 # 2.18.19
@@ -75,3 +76,16 @@ name_and_age('Mike', 33)
 name_and_age('Zane', 18)
 
 print('Git Commit')
+
+# 4.16.3: Enter a Number using Try & Except
+# Ty Ter AVest
+# 2.20.19
+
+
+try:
+    my_num = int(input('Enter an interger: '))
+    print('Your number:', my_num)
+
+except ValueError:
+    print('\n''That was not an integer, YOU FOOL!')
+
